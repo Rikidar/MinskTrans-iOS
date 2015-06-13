@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ControlPanel.h"
 
 @interface ViewController ()
 
@@ -25,7 +26,8 @@
 }
 
 - (IBAction)authWithCredentials:(id)sender {
-    
+    ControlPanel *controlView = [[ControlPanel alloc] initWithNibName:@"ControlPanel" bundle:nil];
+    [self presentViewController:controlView animated:YES completion:nil];
 }
 
 @end
