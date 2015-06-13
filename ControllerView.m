@@ -1,18 +1,18 @@
 //
-//  ControlPanel.m
-//  Minsk Transport
+//  ControllerView.m
+//  
 //
 //  Created by Dmitriy Groschovskiy on 13.06.15.
-//  Copyright © 2015 Minsk Transport. All rights reserved.
+//
 //
 
-#import "ControlPanel.h"
+#import "ControllerView.h"
 
-@interface ControlPanel ()
+@interface ControllerView ()
 
 @end
 
-@implementation ControlPanel
+@implementation ControllerView
 
 - (void)viewDidLoad {
     [super viewDidLoad];

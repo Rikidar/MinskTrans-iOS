@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Minsk Transport
+//  Minsktrans
 //
 //  Created by Dmitriy Groschovskiy on 13.06.15.
-//  Copyright © 2015 Minsk Transport. All rights reserved.
+//  Copyright (c) 2015 Minsk Transport. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

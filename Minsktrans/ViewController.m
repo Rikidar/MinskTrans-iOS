@@ -1,13 +1,14 @@
 //
 //  ViewController.m
-//  Minsk Transport
+//  Minsktrans
 //
 //  Created by Dmitriy Groschovskiy on 13.06.15.
-//  Copyright © 2015 Minsk Transport. All rights reserved.
+//  Copyright (c) 2015 Minsk Transport. All rights reserved.
 //
 
+#import "ControllerView.h"
 #import "ViewController.h"
-#import "ControlPanel.h"
+#import <Parse/Parse.h>
 
 @interface ViewController ()
 
@@ -26,8 +27,8 @@
 }
 
 - (IBAction)authWithCredentials:(id)sender {
-    ControlPanel *controlView = [[ControlPanel alloc] initWithNibName:@"ControlPanel" bundle:nil];
-    [self presentViewController:controlView animated:YES completion:nil];
+    ControllerView *controllerEvent = [[ControllerView alloc] initWithNibName:@"ControllerView" bundle:nil];
+    [self presentViewController:controllerEvent animated:YES completion:nil];
 }
 
 @end

@@ -1,18 +1,19 @@
 //
-//  Minsk_TransportTests.m
-//  Minsk TransportTests
+//  MinsktransTests.m
+//  MinsktransTests
 //
 //  Created by Dmitriy Groschovskiy on 13.06.15.
-//  Copyright © 2015 Minsk Transport. All rights reserved.
+//  Copyright (c) 2015 Minsk Transport. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface Minsk_TransportTests : XCTestCase
+@interface MinsktransTests : XCTestCase
 
 @end
 
-@implementation Minsk_TransportTests
+@implementation MinsktransTests
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +27,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(YES, @"Pass");
 }
 
 - (void)testPerformanceExample {
